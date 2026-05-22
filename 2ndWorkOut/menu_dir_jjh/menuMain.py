@@ -1,5 +1,5 @@
-from practice import showMenu
-from practice2 import exitMenu
+from menu import showMenu
+from exitMenu import exitMenu
 
 while True:
 

@@ -6,12 +6,15 @@ FIND_ID = 5
 FIND_PASSWORD = 6
 SYSTEM_SHUTDOWN = 0
 
+
+
 EXIT = 7
 CANCEL = 8
 
+DEV_MOD = True
 def exitMenu():
 
-    while True:
+    while DEV_MOD:
 
         print('\n정말로 종료하시겠습니까?')
         print('7.종료')
@@ -21,7 +24,7 @@ def exitMenu():
 
         if numChoice == EXIT:
             print('프로그램을 종료합니다.')
-            return True
+            return DEV_MOD
         
         elif numChoice == CANCEL:
             print('메뉴로 돌아갑니다.')

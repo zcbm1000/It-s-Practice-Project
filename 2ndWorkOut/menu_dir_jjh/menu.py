@@ -6,10 +6,13 @@ FIND_ID = 5
 FIND_PASSWORD = 6
 SYSTEM_SHUTDOWN = 0
 
+
+
 EXIT = 7
 CANCEL = 8
 
-flag = True
+DEV_MOD = True
+flag = DEV_MOD
 
 def showMenu():
 
